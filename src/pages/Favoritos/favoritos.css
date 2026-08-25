@@ -1,0 +1,57 @@
+.minha-lista{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.minha-lista h1{
+    margin-bottom: 14px;
+}
+
+.minha-lista span{
+    font-size: 18px;
+}
+.minha-lista ul{
+    width: 720px;
+}
+
+.minha-lista ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.minha-lista div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minha-lista div a{
+    text-decoration: none;
+    color: #116feb;
+    margin-right: 14px;
+}
+
+.minha-lista div a:hover{
+    text-decoration: underline;
+}
+
+.botao-excluir {
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 1px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.botao-excluir:hover{
+    color: aliceblue;
+    background-color: rgb(165, 71, 42);
+}
