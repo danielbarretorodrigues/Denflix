@@ -1,16 +1,4 @@
-# React + Vite
+Denflix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Neste projeto, eu consumi a API do TMDB utilizando a biblioteca 'axios' para fazer uma lista simples de filmes populares no momento, um botão na header para acessar a sua lista e um botão para acessar cada filme.
+Ao clicar no botão, você irá para uma página mais detalhada do filme escolhido onde verá, além do nome e foto de capa, a sinopse e a avaliação média. Nessa página, há dois novos botões: um botão para "salvar" o filme, onde você irá armazená-lo no localStorage do seu navegador, e um botão para ver o trailer, onde você será ancorado diretamente na pesquisa do trailer do filme escolhido.
