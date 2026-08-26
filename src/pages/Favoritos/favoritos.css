@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
 }
 
 .minha-lista h1{
@@ -15,6 +14,7 @@
 }
 .minha-lista ul{
     width: 720px;
+    max-width: 100%;
 }
 
 .minha-lista ul li{
